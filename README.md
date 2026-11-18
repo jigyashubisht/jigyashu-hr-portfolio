@@ -4,20 +4,20 @@ A static portfolio website (plain HTML and CSS, no build step).
 
 ## Files
 - `index.html` – the whole website
-- `images/` – project screenshots
+- the `.webp` files – project screenshots (kept next to index.html)
 
 ## Publish with GitHub Pages
-1. Upload everything in this folder to a GitHub repository (keep `images/` as a folder).
+1. Upload everything in this folder to a GitHub repository (all files stay together in one place).
 2. Go to **Settings → Pages**.
 3. Under "Build and deployment", choose **Deploy from a branch**, branch `main`, folder `/ (root)`, then **Save**.
 4. After a minute or two the site is live at `https://YOUR-USERNAME.github.io/REPOSITORY-NAME/`.
 
 ## Add a new project
-1. Upload the screenshot to `images/` (for example `images/my-new-project.webp`; `.png` or `.jpg` also work).
+1. Upload the screenshot to the repository (for example `my-new-project.webp`; `.png` or `.jpg` also work).
 2. Open `index.html` on GitHub and click the pencil icon (or edit it on your computer).
 3. Find the Projects section and copy one whole block from `<article class="pr">` to `</article>`.
 4. Paste it after the last project and change the title, description, tools, learning outcomes and image path.
-   For each screenshot, update both `data-full="images/..."` and `src="images/..."` to the same file name.
+   For each screenshot, update both `data-full="..."` and `src="..."` to the same file name.
 5. Commit the change. The site updates in a minute or two.
 
 ## Update other text
